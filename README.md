@@ -2,9 +2,9 @@
 
 This repository provides code for a simple cheat for the game Honkai Star Rail. For informational purposes only. **Use at your own risk.**
 
-### Join the [Discord Server](https://discord.gg/ygsTSDRyFq) for early releases and updates! 
+### Join the [Discord Server](https://discord.gg/vC9a8ba4b8) for early releases and updates! 
 <p align="left">
-	<a href="https://discord.gg/ygsTSDRyFq"><img src="https://img.shields.io/discord/1106494804491259984?label=Discord&logo=discord&style=for-the-badge&color=blueviolet"></a>
+	<a href="https://discord.gg/vC9a8ba4b8"><img src="https://img.shields.io/discord/1106494804491259984?label=Discord&logo=discord&style=for-the-badge&color=blueviolet"></a>
 </p>
 
 ## Features & Hotkeys
