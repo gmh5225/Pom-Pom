@@ -121,10 +121,10 @@ void overlay::Update() {
     ImGui::TextColored(ImVec4(0.0f, 0.5f, 1.0f, 1.0f), "Discord Invite: ");
     ImGui::SameLine();
     ImGui::TextColored(ImVec4(1.0f, 1.0f, 1.0f, 1.0f),
-                       "https://discord.gg/2CKZXem76J");
+                       "https://discord.gg/vC9a8ba4b8");
     if (ImGui::IsItemClicked()) {
       // Open the website
-      std::string url = "https://discord.gg/2CKZXem76J";
+      std::string url = "https://discord.gg/vC9a8ba4b8";
       std::wstring wideUrl(url.begin(), url.end());
       ShellExecute(NULL, NULL, wideUrl.c_str(), NULL, NULL, SW_SHOWNORMAL);
     }
