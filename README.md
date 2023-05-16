@@ -27,8 +27,7 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 ## Features
 
 #### General
-- Protection Bypass (Anti cheat bypass credits to Z4ee)
-- Mod Menu UI
+- Protection Bypass (Anti cheat bypass)
 - Hotkeys
 - Notifications
 
@@ -53,15 +52,13 @@ Step 1: Download the code
 
 Step 2: Unzip the archive.
 
-Step 3: Compile code
+Step 3: Compile code.
 
-Step 5: Run compiled HSR-Launcher.exe (found in Hkebi-GC/Release)
-
-Step 6: Select StarRail.exe.
+Step 4: Select StarRail.exe.
 
 ![image](https://user-images.githubusercontent.com/113752393/236632851-b1e6cfa0-7854-477d-b486-730300b1ee9a.png)
 
-Step 7: Done!
+Step 5: Done!
 
 ![image](https://user-images.githubusercontent.com/113752393/236632880-84855a81-098e-4843-a4e5-877b78b8b110.png)
 
