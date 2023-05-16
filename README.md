@@ -7,23 +7,6 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 	<a href="https://discord.gg/ygsTSDRyFq"><img src="https://img.shields.io/discord/1106494804491259984?label=Discord&logo=discord&style=for-the-badge&color=blueviolet"></a>
 </p>
 
-
-## Hotkeys
-
-- F1: Open/Close menu
-
-- F2: Toggle World Speed
-
-- F3: Toggle Battle Speed
-
-- F4: Toggle Auto-Dialogue (CAPSLOCK if not automatically detected)
-
-- F5: Toggle Invisibility
-
-- F6: Toggle Force Auto-Battle
-
-- F7: Toggle Peeking
-
 ## Features
 
 #### General
@@ -43,6 +26,22 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 #### Visuals 
 - Peeking
 - FPS Unlock
+
+## Hotkeys
+
+- F1: Open/Close menu
+
+- F2: Toggle World Speed
+
+- F3: Toggle Battle Speed
+
+- F4: Toggle Auto-Dialogue (CAPSLOCK if not automatically detected)
+
+- F5: Toggle Invisibility
+
+- F6: Toggle Force Auto-Battle
+
+- F7: Toggle Peeking
 
 # Instructions:
 
