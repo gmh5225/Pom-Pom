@@ -7,7 +7,7 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 	<a href="https://discord.gg/ygsTSDRyFq"><img src="https://img.shields.io/discord/1106494804491259984?label=Discord&logo=discord&style=for-the-badge&color=blueviolet"></a>
 </p>
 
-## Features
+## Features & Hotkeys
 
 #### General
 - Protection Bypass (Anti cheat bypass)
@@ -27,7 +27,7 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 - Peeking
 - FPS Unlock
 
-## Hotkeys
+### Hotkeys
 
 - F1: Open/Close menu
 
