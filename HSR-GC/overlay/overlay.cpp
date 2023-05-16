@@ -11,7 +11,7 @@ void overlay::Update() {
   static ImGuiWindowFlags classFinderWindowFlags =
       ImGuiWindowFlags_AlwaysAutoResize;
 
-  ImGui::Begin("Rekebi-SR", 0, classFinderWindowFlags);
+  ImGui::Begin("Pom-Pom", 0, classFinderWindowFlags);
 
   ImGui::BeginTabBar("##tabs");
 
