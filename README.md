@@ -36,7 +36,7 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 - F6: Toggle Force Auto-Battle
 - F7: Toggle Peeking
 
-# Instructions:
+## instructions
 
 Step 1: Download the code
 
