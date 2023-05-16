@@ -76,6 +76,7 @@
     <ClCompile Include="features\other.cpp" />
     <ClCompile Include="features\speedhack.cpp" />
     <ClCompile Include="overlay\overlay.cpp" />
+    <ClCompile Include="features\customProfile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\Direct3D\Direct3D.h">

@@ -22,6 +22,7 @@
     <ClCompile Include="dependencies\MinHook\hde\hde64.c" />
     <ClCompile Include="dependencies\MinHook\hook.c" />
     <ClCompile Include="dependencies\MinHook\trampoline.c" />
+    <ClCompile Include="features\customProfile.cpp" />
     <ClCompile Include="features\dialogue.cpp" />
     <ClCompile Include="features\other.cpp" />
     <ClCompile Include="features\speedhack.cpp" />
@@ -64,6 +65,7 @@
     <ProjectGuid>{35e08305-6e14-4a20-9b5a-8aec0dd760cf}</ProjectGuid>
     <RootNamespace>HSRGC</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>PomPom</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">

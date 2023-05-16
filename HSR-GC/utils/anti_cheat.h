@@ -19,7 +19,7 @@ namespace anti_cheat {
                               DWORD dwCreationDisposition,
                               DWORD dwFlagsAndAttributes,
                               HANDLE hTemplateFile) {
-    if (memcmp(lpFileName, L"\\\\.\\ACE-BASE", 24) == 0) {
+      if (memcmp(lpFileName, L"\\\\.\\ACE-BASE", 24) == 0) {
       wprintf(L"[>] Thread (%i) attempting to communicate with anti-cheat "
               L"driver -> "
               L"%s\n",

@@ -67,9 +67,72 @@ void overlay::Update() {
     if (globals::other::fps_unlock) {
       ImGui::InputInt("FPS", &globals::other::fps);
     }
-
+    
     ImGui::EndTabItem();
   }
+  if (ImGui::BeginTabItem("Visuals")) {
+      ImGui::Checkbox("Custom Profile", &globals::visuals::profile);
+      // Question mark icon button
+      ImGui::SameLine();
+      ImGui::Button("?", ImVec2(20, 20));  // Adjust the size of the button as needed
+      bool showHint = false;
+      if (ImGui::IsItemHovered()) {
+          showHint = true;  // Show the hint message when the button is hovered
+      }
+      else {
+          showHint = false;  // Hide the hint message otherwise
+      }
+
+      // Hint message
+      if (showHint) {
+          ImGui::SameLine();
+          ImGui::SetTooltip("note: enter any loading screen state (teleport other map) to apply all changes");
+      }
+      
+      if (globals::visuals::profile) {
+          ImGui::Indent(); // Indent the following elements
+
+          ImGui::Checkbox("UID", &globals::visuals::uid);
+           
+
+          if (globals::visuals::uid) {
+              ImGui::Indent(); // Indent the following element
+              ImGui::InputInt("UID Value", &globals::visuals::uidvalue);
+              ImGui::Unindent(); // Unindent back to the previous level
+          }
+
+          ImGui::Checkbox("World Level", &globals::visuals::worldlevel);
+
+          if (globals::visuals::worldlevel) {
+              ImGui::Indent(); // Indent the following element
+              ImGui::SliderInt("World Level Value", &globals::visuals::worldlevelvalue,0 , 6);
+              ImGui::SetTooltip("can be bugged");
+              ImGui::Unindent(); // Unindent back to the previous level
+          }
+
+          ImGui::Checkbox("XP", &globals::visuals::xp);
+
+          if (globals::visuals::xp) {
+              ImGui::Indent(); // Indent the following element
+              ImGui::InputInt("XP Value", &globals::visuals::xpvalue);
+              ImGui::Unindent(); // Unindent back to the previous level
+          }
+
+          ImGui::Checkbox("Player Level", &globals::visuals::playerlevel);
+
+          if (globals::visuals::playerlevel) {
+              ImGui::Indent(); // Indent the following element
+              ImGui::SliderInt("Player Level Value", &globals::visuals::playerlevelvalue,1 ,70);
+              ImGui::SetTooltip("can be bugged");
+              ImGui::Unindent(); // Unindent back to the previous level
+          }
+
+          ImGui::Unindent(); // Unindent back to the previous level
+      }
+
+      ImGui::EndTabItem();
+  }
+
 
   if (ImGui::BeginTabItem("Debug")) {
     ImGui::Text("Phase: %s", hooks::game::get_phase_in_text());
@@ -114,13 +177,19 @@ void overlay::Update() {
     ImGui::Text("This project is free!");
     ImGui::Text("List of Contributing Developers");
     ImGui::Text("b-e-y");
-    ImGui::Text("ELJoOker2004");
+    ImGui::TextColored(ImVec4(0.0f, 0.5f, 1.0f, 1.0f),"ELJoOker#8401");
+    if (ImGui::IsItemClicked()) {
+        // Open the website
+        std::string url = "https://github.com/ELJoOker2004";
+        std::wstring wideUrl(url.begin(), url.end());
+        ShellExecute(NULL, NULL, wideUrl.c_str(), NULL, NULL, SW_SHOWNORMAL);
+    }
     ImGui::Text("AyamiAlince");
     ImGui::Text("ky-ler");
     ImGui::Text("Join the Discord server for Support/Updates");
-    ImGui::TextColored(ImVec4(0.0f, 0.5f, 1.0f, 1.0f), "Discord Invite: ");
+    ImGui::TextColored(ImVec4(1.0f, 1.0f, 1.0f, 1.0f), "Discord Invite: ");
     ImGui::SameLine();
-    ImGui::TextColored(ImVec4(1.0f, 1.0f, 1.0f, 1.0f),
+    ImGui::TextColored(ImVec4(0.0f, 0.5f, 1.0f, 1.0f),
                        "https://discord.gg/vC9a8ba4b8");
     if (ImGui::IsItemClicked()) {
       // Open the website
@@ -154,6 +223,7 @@ void overlay::Main() {
     features::speedhack::UpdateWorld(game_assembly, unity_player);
     features::speedhack::UpdateBattle(game_assembly, unity_player);
     features::other::Update(unity_player);
+    features::visuals::Profile(game_assembly);
 
     HWND target_window = FindWindowA("UnityWndClass", nullptr);
 

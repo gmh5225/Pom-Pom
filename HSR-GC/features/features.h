@@ -22,4 +22,7 @@ namespace features {
   namespace other {
     void Update(uint64_t unity_player);
   }
+  namespace visuals {
+      void Profile(uint64_t game_assembly);
+  }
 } // namespace features

@@ -31,6 +31,18 @@ namespace globals {
     inline bool fps_unlock = false;
     inline int fps = 60;
   } // namespace other
+  
+  namespace visuals {
+      inline bool profile = false;
+      inline bool uid = false;
+      inline bool worldlevel = false;
+      inline bool xp = false;
+      inline bool playerlevel = false;
+      inline int uidvalue = 0;
+      inline int worldlevelvalue = 6;
+      inline int xpvalue = 0;
+      inline int playerlevelvalue = 70;
+  }
 
   namespace hotkeys {
     inline int world_speed = VK_F2;

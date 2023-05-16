@@ -113,7 +113,7 @@ int main() {
   if (!current_dir)
     return 0;
 
-  auto dll_path = current_dir.value() / "HSR-GC.dll";
+  auto dll_path = current_dir.value() / "PomPom.dll";
   if (!fs::is_regular_file(dll_path)) {
     std::cout << "DLL not found" << std::endl;
     system("pause");
