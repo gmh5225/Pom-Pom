@@ -11,7 +11,7 @@ void overlay::Update() {
   static ImGuiWindowFlags classFinderWindowFlags =
       ImGuiWindowFlags_AlwaysAutoResize;
 
-  ImGui::Begin("HSR-GC", 0, classFinderWindowFlags);
+  ImGui::Begin("Rekebi-SR", 0, classFinderWindowFlags);
 
   ImGui::BeginTabBar("##tabs");
 
@@ -114,6 +114,8 @@ void overlay::Update() {
     ImGui::Text("This project is free!");
     ImGui::Text("List of Contributing Developers");
     ImGui::Text("b-e-y");
+    ImGui::Text("ELJoOker2004");
+    ImGui::Text("AyamiAlince");
     ImGui::Text("ky-ler");
     ImGui::Text("Join the Discord server for Support/Updates");
     ImGui::TextColored(ImVec4(0.0f, 0.5f, 1.0f, 1.0f), "Discord Invite: ");
