@@ -48,7 +48,7 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 
 Step 1: Download the code
 
-![image](https://user-images.githubusercontent.com/113752393/236731146-757deddc-a5d7-4d13-a3b9-235b23fe83bd.png)
+![Screenshot](downloadpic.png)
 
 Step 2: Unzip the archive.
 
@@ -60,6 +60,6 @@ Step 4: Select StarRail.exe.
 
 Step 5: Done!
 
-![image](https://user-images.githubusercontent.com/113752393/236632880-84855a81-098e-4843-a4e5-877b78b8b110.png)
+![Screenshot](donepic.png)
 
 
