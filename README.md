@@ -27,7 +27,7 @@ This repository provides code for a simple cheat for the game Honkai Star Rail. 
 - Peeking
 - FPS Unlock
 
-### Hotkeys
+#### Hotkeys
 - F1: Open/Close menu
 - F2: Toggle World Speed
 - F3: Toggle Battle Speed
